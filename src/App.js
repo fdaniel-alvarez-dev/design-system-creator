@@ -4,19 +4,21 @@ import Navbar from './components/Navbar';
 import DesignSystemsList from './components/DesignSystemsList';
 import ComponentsCreator from './components/ComponentsCreator';
 import AIConfigurator from './components/AIConfigurator';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <div className="min-h-screen bg-gray-50">
+      <div className="flex flex-col min-h-screen">
         <Navbar />
-        <main className="container mx-auto px-4 py-8">
+        <main className="flex-grow">
           <Routes>
             <Route path="/" element={<DesignSystemsList />} />
             <Route path="/components" element={<ComponentsCreator />} />
             <Route path="/ai-config" element={<AIConfigurator />} />
           </Routes>
         </main>
+        <Footer />
       </div>
     </Router>
   );
