@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/design-system-creator/static/css/main.262bdeea.css",
+    "main.js": "/design-system-creator/static/js/main.497f0198.js",
+    "index.html": "/design-system-creator/index.html",
+    "main.262bdeea.css.map": "/design-system-creator/static/css/main.262bdeea.css.map",
+    "main.497f0198.js.map": "/design-system-creator/static/js/main.497f0198.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.262bdeea.css",
+    "static/js/main.497f0198.js"
+  ]
+}
